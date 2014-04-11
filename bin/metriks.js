@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 var cli           = require('cli').enable('status', 'help', 'version', 'glob', 'timeout');
 var workDir       = (process.env.HOME || '/tmp') + '/metriks';
 var _             = require('underscore');
